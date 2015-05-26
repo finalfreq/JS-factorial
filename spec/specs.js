@@ -4,6 +4,6 @@ describe('factorial', function() {
   });
 
   it("shows factorial of any positive number", function() {
-    expect(factorial(5)).to.equal(120);
+    expect(factorial(10)).to.equal(3628800);
   });
 });
